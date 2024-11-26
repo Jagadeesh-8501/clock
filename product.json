@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Product 1",
+        "smallImages": ["assets/images/product/prod300x300/product-1.png"],
+        "introduction": "Description for product 1"
+    },
+    {
+        "name": "Product 2",
+        "smallImages": ["assets/images/product/prod300x300/product-2.png"],
+        "introduction": "Description for product 2"
+    }
+]

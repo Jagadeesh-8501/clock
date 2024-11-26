@@ -1,0 +1,685 @@
+{
+  "products": [
+    {
+      "name": "Clonerv Plus Injection",
+      "type": "inj",
+      "prescription": "true",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-1.png",
+        "assets/images/product/prod300x300/product-1.1.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-1.png",
+        "assets/images/product/prod1000x1000/product-1.1.png"
+      ],
+      "introduction": "Clonerve-Plus Injection is a prescription medicine containing vitamins to treat nutritional deficiencies. It promotes proper growth and body function.",
+      "administration": "Administered by a healthcare professional. Self-administration is not recommended.",
+      "precautions": [
+        "Inform your doctor about any known allergies.",
+        "Consult a doctor if symptoms at the injection site (redness, swelling, pain) persist."
+      ],
+      "uses": ["Nutritional deficiencies"],
+      "benefits": [
+        "Supports red blood cell formation and iron absorption.",
+        "Promotes heart, brain, and nervous system function.",
+        "Boosts energy, metabolism, immunity, and maintains healthy skin and hair."
+      ],
+      "sideEffects": ["No common side effects observed"],
+      "safetyAdvice": {
+        "alcohol": "Caution advised. Consult your doctor.",
+        "pregnancy": "Consult your doctor.",
+        "breastFeeding": "Safe if prescribed.",
+        "driving": "Consult your doctor.",
+        "kidney": "Safe if prescribed.",
+        "liver": "Safe if prescribed."
+      },
+      "composition": [
+        "Thiamine (Vitamin B1)",
+        "Vitamin B6 (Pyridoxine)",
+        "Methylcobalamin",
+        "Nicotinamide",
+        "D-Panthenol"
+      ]
+    },
+    {
+      "name": "Ferroclock-Xt Tab",
+      "type": "tab",
+      "introduction": "Ferroclock-Xt Tab treats iron deficiency and anaemia. It contains Ferrous Ascorbate, Folic Acid, and Zinc to promote red blood cell formation and tissue oxygenation.",
+      "administration": "Swallow with water, as advised by a doctor. Avoid crushing or chewing.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-2.png",
+        "assets/images/product/prod300x300/product-2.1.png",
+        "assets/images/product/prod300x300/product-2.2.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-2.png",
+        "assets/images/product/prod1000x1000/product-2.1.png",
+        "assets/images/product/prod1000x1000/product-2.2.png"
+      ],
+      "precautions": [
+        "Inform your doctor if you have any heart, kidney, or liver disease, iron overload disorders, or intestinal issues.",
+        "Pregnant and breastfeeding women should consult a doctor."
+      ],
+      "uses": ["Iron deficiency anaemia"],
+      "benefits": [
+        "Supports red blood cell and haemoglobin production.",
+        "Promotes tissue growth and development.",
+        "Prevents folate deficiency and aids iron absorption."
+      ],
+      "sideEffects": ["Nausea", "Diarrhoea", "Constipation", "Stomach upset"],
+      "safetyAdvice": {
+        "alcohol": "May affect iron absorption. Consult your doctor.",
+        "pregnancy": "Consult your doctor.",
+        "breastFeeding": "Consult your doctor.",
+        "driving": "Safe",
+        "kidney": "Caution advised. Consult your doctor.",
+        "liver": "Caution advised. Consult your doctor.",
+        "children": "Use only if prescribed by a doctor."
+      },
+      "drugInteractions": {
+        "medications": [
+          "Ciprofloxacin",
+          "Cephalexin",
+          "Penicillamine",
+          "Phenytoin",
+          "Phenobarbital",
+          "Cisplatin",
+          "Ritonavir"
+        ],
+        "foods": ["Alcohol", "Dairy products", "Eggs"],
+        "conditions": [
+          "Heart disease",
+          "Liver disease",
+          "Kidney disease",
+          "Iron overload disorders"
+        ]
+        
+      },
+      "composition": [
+        "FERROUS ASCORBATE","FOLIC ACID","ZINC"
+      ]
+    },
+    {
+      "name": "Clopime 1000 Injection",
+      "type": "inj",
+      "introduction": "Clopime 1000 Injection is an antibiotic used to treat severe bacterial infections in critically ill patients. It kills bacteria by disrupting cell wall formation.",
+      "administration": "Administered by a doctor via IV. Do not self-administer.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-3.png",
+        "assets/images/product/prod300x300/product-3.1.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-3.png",
+        "assets/images/product/prod1000x1000/product-3.1.png"
+      ],
+      "precautions": [
+        "Complete the full course as prescribed, even if symptoms improve.",
+        "Inform your doctor of any liver or kidney issues, or allergies to antibiotics."
+      ],
+      "uses": ["Severe bacterial infections"],
+      "benefits": [
+        "Effectively treats bacterial infections in the lungs, urinary tract, skin, stomach, and blood."
+      ],
+      "sideEffects": [
+        "Injection site reactions (pain, swelling, redness)",
+        "Diarrhea",
+        "Increased white blood cell count (eosinophils)",
+        "Skin rash",
+        "Increased liver enzymes",
+        "Positive Coombs test",
+        "Decreased phosphate level in blood"
+      ],
+      "safetyAdvice": {
+        "alcohol": "Safe",
+        "pregnancy": "Safe if prescribed",
+        "breastFeeding": "Safe if prescribed",
+        "driving": "Consult your doctor",
+        "kidney": "Caution advised. Dose adjustment may be needed.",
+        "liver": "Safe if prescribed"
+      },
+      "monitoring": ["Regular kidney function tests as advised by doctor"],
+      "composition": [
+        "Cefepime"
+      ]
+    },
+    {
+      "name": "Clolife-9G Softgel Capsule",
+      "type": "tab",
+      "introduction": "Clolife-9G Softgel Capsule is an effective and essential health supplement that can help to improve cardiac functions, reduce bad LDL and triglyceride levels, boost immunity and protect the cells from free radical damage.",
+      "administration": "As directed by the physician.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-4.png",
+        "assets/images/product/prod300x300/product-4.1.png",
+        "assets/images/product/prod300x300/product-4.2.png",
+        "assets/images/product/prod300x300/product-4.3.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-4.png",
+        "assets/images/product/prod1000x1000/product-4.1.png",
+        "assets/images/product/prod1000x1000/product-4.2.png",
+        "assets/images/product/prod1000x1000/product-4.3.png"
+      ],
+      "precautions": [
+        "Store it in a cool and dry place below 25 degrees Celsius.",
+        "Keep it away from direct sunlight.",
+        "Keep it away from the reach of the children."
+      ],
+      "uses": ["Health supplement"],
+      "benefits": [
+        "Enhances cardiac functions.",
+        "Maintains organ health.",
+        "Acts as a blood thinner and prevents clotting.",
+        "Boosts the immune system.",
+        "Protects cells from free radicals.",
+        "Lowers bad LDL and triglyceride levels."
+      ],
+      "sideEffects": ["No common side effects reported."],
+      "safetyAdvice": {},
+      "composition": [
+        "Omega-3 Fatty Acid [EPA-DHA]", "Ginseng Extract Powder", "Grape Seed Extract", "Guggul Extract", "Glycyrrhiza glabra Extract", "Green Tea Extract", "Ginkgo biloba Powder", "Ginger Extract", "Garlic Extract", "Green Coffee bean Extract", "Multivitamin", "Multimineral & Anti-oxidant Softgel Capsules"
+      ]
+    },
+    {
+      "name": "Esoclock 40mg Tablet",
+      "type": "tab",
+      "introduction": "Esoclock 40mg Injection is a medicine that reduces the amount of acid produced in your stomach. It is used for treating acid-related diseases of the stomach and intestine such as acid reflux and some other stomach conditions associated with excessive acid production. Esoclock 40mg Injection is also used to prevent stress ulcers in seriously ill patients and is administered before anesthetic medication to help prevent aspiration-related complications. It belongs to a class of medicines known as proton pump inhibitors (PPIs). This medicine is administered into a vein by a healthcare professional.",
+      "administration": "Administered by a healthcare professional.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-5.png",
+        "assets/images/product/prod300x300/product-5.1.png",
+        "assets/images/product/prod300x300/product-5.2.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-5.png",
+        "assets/images/product/prod1000x1000/product-5.1.png",
+        "assets/images/product/prod1000x1000/product-5.2.png"
+      ],
+      "precautions": [
+        "Inform your doctor if you have severe liver problems.",
+        "Consult your doctor if you're taking medicines for HIV.",
+        "Tell your doctor if you've had an allergic reaction to similar medicines in the past.",
+        "Consult your doctor if you suffer from bone loss (osteoporosis).",
+        "Pregnant or breastfeeding women should also consult their doctor.",
+        "Avoid drinking alcohol as it can worsen your symptoms."
+      ],
+      "uses": ["Treatment of Gastroesophageal reflux disease (Acid reflux)"],
+      "benefits": [
+        "Reduces stomach acid production, relieving pain associated with heartburn and acid reflux.",
+        "Helps prevent stress ulcers in critically ill patients."
+      ],
+      "sideEffects": [
+        "Injection site reactions",
+        "Nausea",
+        "Headache",
+        "Dizziness",
+        "Flatulence",
+        "Diarrhea",
+        "Stomach pain",
+        "Fundic gland polyps"
+      ],
+      "safetyAdvice": {
+        "alcohol": "Caution advised. Consult your doctor.",
+        "pregnancy": "Consult your doctor.",
+        "breastFeeding": "Consult your doctor.",
+        "driving": "Consult your doctor.",
+        "kidney": "Caution advised. Dose adjustment may be needed.",
+        "liver": "Caution advised. Dose adjustment may be needed."
+      },
+      "composition":[ "ESOMEPRAZOLE-40MG"]
+    },
+    {
+      "name": "Clofur-CV Tablet",
+      "type": "tab",
+      "introduction": "Clofur-CV Tablet is a combination medicine that is used to treat various types of bacterial infections. It fights against microorganisms to prevent their growth and further spread of the infection. It is a prescription medicine advised to take as per the prescription.",
+      "administration": "Take it with or without food, but at a fixed time for better efficacy.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-6.png",
+        "assets/images/product/prod300x300/product-6.1.png",
+        "assets/images/product/prod300x300/product-6.2.png",
+        "assets/images/product/prod300x300/product-6.3.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-6.png",
+        "assets/images/product/prod1000x1000/product-6.1.png",
+        "assets/images/product/prod1000x1000/product-6.2.png",
+        "assets/images/product/prod1000x1000/product-6.3.png"
+      ],
+      "precautions": [
+        "Inform your doctor if you are taking any other medicines.",
+        "Pregnant or breastfeeding women should consult their doctor.",
+        "Avoid drinking alcohol as it may cause excessive drowsiness.",
+        "Consult your doctor before discontinuing treatment."
+      ],
+      "uses": ["Treatment of Bacterial infections"],
+      "benefits": [
+        "Contains Cefuroxime and Clavulanic Acid, which work together to kill bacteria causing infections.",
+        "Effective against various bacterial infections like ear, sinus, throat, lung, urinary tract, skin, and soft tissues."
+      ],
+      "sideEffects": [
+        "Nausea",
+        "Vomiting",
+        "Diarrhea",
+        "Increased liver enzymes",
+        "Allergic reactions",
+        "Abdominal pain"
+      ],
+      "safetyAdvice": {
+        "alcohol": "SAFE - Consuming alcohol does not cause any harmful side effects.",
+        "pregnancy": "Consult your doctor.",
+        "breastFeeding": "SAFE IF PRESCRIBED.",
+        "driving": "NOT RELEVANT - Intended for use in hospitalized patients.",
+        "kidney": "Consult your doctor.",
+        "liver": "Consult your doctor."
+      },
+      "composition":[ "Cefuroxime (500mg) ", "Clavulanic Acid (125mg)"]
+    },
+    {
+      "name": "Gluclock 600 Injection",
+      "type": "inj",
+      "introduction": "Gluclock 600 Injection is a medicine used in the treatment of liver disease. It protects body cells against damage caused by free radicals and has various health benefits. This injection should only be administered by a healthcare professional.",
+      "administration": "Administered as an injection by a healthcare professional. Do not self-administer.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-7.png",
+        "assets/images/product/prod300x300/product-7.1.png",
+        "assets/images/product/prod300x300/product-7.2.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-7.png",
+        "assets/images/product/prod1000x1000/product-7.1.png",
+        "assets/images/product/prod1000x1000/product-7.2.png"
+      ],
+      "uses": ["Liver disease"],
+      "benefits": [
+        "Protects the liver from damage against harmful free radicals.",
+        "Improves the overall health of the liver, enabling it to perform its normal functions."
+      ],
+      "sideEffects": [
+        "Injection site reactions (pain, swelling, redness)"
+      ],
+      "safetyAdvice": {
+        "alcohol": "Consult your doctor.",
+        "pregnancy": "Consult your doctor.",
+        "breastFeeding": "Consult your doctor.",
+        "driving": "Consult your doctor.",
+        "kidney": "Consult your doctor.",
+        "liver": "SAFE IF PRESCRIBED - Dose adjustment may not be needed."
+      },
+      "precautions": [
+        "Inform your doctor if you have any underlying health conditions.",
+        "Avoid alcohol consumption as it may affect the liver.",
+        "Monitor for any allergic reactions or unusual side effects.",
+        "Consult your doctor for regular liver function tests while on treatment."
+      ],
+      "composition": ["Glutathione (600mg)"]
+    },
+    {
+      "name": "Clofate O Syrup",
+      "type": "syr",
+      "introduction": "Clofate O Syrup is used to treat peptic ulcers or gastrointestinal ulcers. It effectively addresses hyperacidity, heartburn, indigestion, and gastritis (inflammation of the stomach). The stomach is usually protected from acid by a mucous layer, but excess acid production can erode this layer, leading to complications like acidity and heartburn. Peptic ulcers are sores on the stomach's lining or the first part of the small intestine (duodenum), categorized as gastric or duodenal ulcers.",
+      "administration": "Take Clofate O Syrup one hour before a meal or as advised by the doctor. Shake the bottle well before use. Avoid drinking anything immediately after taking the syrup as it can reduce its effectiveness.",
+      "smallImages": [
+        "assets/images/product/prod300x300/nopic.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/nopic.png"
+      ],
+      "uses": [
+        "Treatment of Acidity",
+        "Heartburn",
+        "Stomach ulcer",
+        "Duodenal ulcer"
+      ],
+      "benefits": [
+        "Forms a protective barrier over ulcers to prevent irritation from digestive enzymes, acid, and bile salts.",
+        "Stimulates healing and formation of new healthy skin by promoting gastric mucosal prostaglandins and bicarbonate."
+      ],
+      "sideEffects": [
+        "Constipation",
+        "Dizziness",
+        "Sleepiness",
+        "Dry Mouth",
+        "Nausea"
+      ],
+      "safetyAdvice": {
+        "alcohol": "Caution - Drinking alcohol may cause dehydration and elevate stomach acid levels, reducing efficacy.",
+        "pregnancy": "Caution - Clofate O Syrup is a pregnancy category B drug. It should not be taken until prescribed. Your doctor will weigh the benefits and any potential risks before prescribing it to you. Please consult your doctor.",
+        "breastFeeding": "Caution - There is limited data on how Clofate O Syrup affects breastfeeding. Please consult your doctor before taking Clofate O Syrup; your doctor will weigh the benefits and any potential risks before prescribing it to you.",
+        "driving": "Caution - Clofate O Syrup may decrease alertness, affect your vision, or make you feel sleepy and dizzy. Do not drive if these symptoms occur.",
+        "liver": "Caution - Clofate O Syrup should be taken with caution if you have a history of liver disease/conditions. The dose may have to be adjusted by your doctor.",
+        "kidney": "Caution - Consult your doctor before taking Clofate O Syrup if you have kidney impairment or any concerns regarding this. Your doctor will weigh the benefits and any potential risks before prescribing it to you.",
+        "children":"Caution - The safety and effectiveness of Clofate O Syrup in children have not been established. Please consult your doctor before giving Clofate O Syrup to children."
+      },
+      "precautions": [
+        "Inform your doctor if allergic to Clofate O Syrup or any of its ingredients.",
+        "Avoid taking aluminium and magnesium-containing antacids with Clofate O Syrup to prevent complications.",
+        "Do not self-discontinue; sudden cessation may affect ulcer frequency or severity.",
+        "Consult your doctor if condition does not improve after 4-5 weeks of use."
+      ],
+      "storage": "Store in a cool and dry place away from sunlight.",
+      "composition": ["OXETACAINE"," SUCRALFATE"]
+    },
+    {
+      "name": "Clocal D3 Tablet",
+      "type": "tab",
+      "introduction": "Clocal D3 Tablet is a nutritional supplement used in the treatment of calcium deficiency. It is prescribed when your diet alone cannot provide the necessary calcium your body needs. It increases the absorption of calcium and helps to prevent or treat low blood calcium levels.",
+      "administration": "Take this medicine with or without food, preferably at the same time each day for maximum benefit. Swallow it whole; do not chew, crush, or break it.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-9.png",
+        "assets/images/product/prod300x300/product-9.1.png",
+        "assets/images/product/prod300x300/product-9.2.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-9.png",
+        "assets/images/product/prod1000x1000/product-9.1.png",
+        "assets/images/product/prod1000x1000/product-9.2.png"
+      ],
+      "precautions": [
+        "Inform your doctor if you have any preexisting medical conditions or are taking other medications.",
+        "Notify your doctor if you experience constipation or an upset stomach.",
+        "Do not exceed the prescribed dose."
+      ],
+      "uses": ["Treatment and prevention of calcium deficiency"],
+      "benefits": [
+        "Helps to improve calcium levels in the body, supporting bone health.",
+        "Reduces the risk of bone disorders such as osteoporosis."
+      ],
+      "sideEffects": [
+        "Constipation",
+        "Upset stomach"
+      ],
+      "safetyAdvice": {
+        "alcohol": "CAUTION - Drinking alcohol can affect calcium absorption; it is advised to limit alcohol intake while using Clocal-D3 Tablet.",
+        "pregnancy": "CAUTION - During pregnancy, use higher doses than the daily dietary allowance only when advised by a doctor. Your doctor will weigh the potential risks and benefits before recommending Clocal-D3 Tablet.",
+        "breastFeeding": "CAUTION - Consult your doctor before taking Clocal-D3 Tablet if you are breastfeeding.",
+        "driving": "SAFE - Clocal-D3 Tablet is usually safe and does not interact with your driving ability.",
+        "liver": "CAUTION - Let your doctor know if you have any history of liver diseases before taking Clocal-D3 Tablet.",
+        "kidney": "CAUTION - Seek doctor advice before starting Clocal-D3 Tablet if you have kidney diseases like kidney stones or are undergoing dialysis.",
+        "children": "CONSULT YOUR DOCTOR - The doctor will decide the dosage based on the child's age and weight."
+      },
+      "composition": ["Calcium", "Vitamin D3"]
+    },
+    {
+      "name": "Clomet V SR",
+      "type": "tab",
+      "introduction": "Clomet V 500mg/50mg Tablet SR is a combination of two medicines that control high blood sugar levels in people with type 2 diabetes mellitus. This helps prevent serious complications of diabetes such as kidney damage and blindness and may also reduce your chances of having a heart attack or stroke.",
+      "administration": "Take this medicine with food, at the same time each day for maximum benefit. Swallow it whole; do not chew, crush, or break it.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-10.png"
+
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-10.png"
+      ],
+      "precautions": [
+        "Consult your doctor if you have a history of kidney, liver, or heart disease.",
+        "Notify your doctor about all medicines you are taking to ensure safety.",
+        "Limit alcohol intake as it can lower blood glucose."
+      ],
+      "uses": ["Treatment of Type 2 diabetes mellitus"],
+      "benefits": [
+        "Helps lower blood glucose levels, reducing the risk of diabetes-related complications such as kidney damage, eye damage, nerve problems, and heart disease.",
+        "Promotes overall health when combined with a proper diet and exercise."
+      ],
+      "sideEffects": [
+        "Hypoglycemia (low blood glucose level)",
+        "Trembling",
+        "Headache",
+        "Dizziness",
+        "Nausea",
+        "Weakness",
+        "Gastroesophageal reflux disease",
+        "Increased sweating",
+        "Decreased appetite"
+      ],
+      "safetyAdvice": {
+        "alcohol": "UNSAFE - It is unsafe to consume alcohol with Clomet V 500mg/50mg Tablet SR.",
+        "pregnancy": "CONSULT YOUR DOCTOR - May be unsafe during pregnancy; consult your doctor to weigh benefits and risks.",
+        "breastFeeding": "CONSULT YOUR DOCTOR - Probably unsafe during breastfeeding; consult your doctor.",
+        "driving": "CAUTION - Your ability to drive may be affected if blood sugar is too low or too high.",
+        "kidney": "CAUTION - Use with caution in patients with kidney disease; dose adjustment may be needed.",
+        "liver": "UNSAFE - Probably unsafe to use in patients with liver disease; should be avoided."
+      },
+      "composition": [
+        "Metformin",
+        "Voglibose"
+      ]
+    },
+    {
+      "name": "Clonerv PG Capsule",
+      "type": "tab",
+      "introduction": "Clonerv PG 750mcg/75mg Capsule is a prescription medicine used for the treatment of neuropathic pain. It decreases pain by modulating calcium channel activity of the nerve cells and protects nerve fibers, helping to heal damaged nerve cells.",
+      "administration": "Take this medicine by mouth with or without food, preferably at bedtime. Maintain a consistent schedule and take the dose as advised by your doctor. Do not stop suddenly without consulting your doctor.",
+      "smallImages": [
+        "assets/images/product/prod300x300/nopic.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/nopic.png"
+      ],
+      "precautions": [
+        "Inform your doctor of all other medications you are taking.",
+        "Consult your doctor if you are pregnant, planning pregnancy, or breastfeeding.",
+        "Regular exercise and a balanced diet can help control potential weight gain."
+      ],
+      "uses": ["Treatment of neuropathic pain"],
+      "benefits": [
+        "Reduces chronic pain caused by nerve damage.",
+        "Improves physical and social functioning, enhancing overall quality of life.",
+        "Contains Pregabalin, which interferes with pain signals traveling through damaged nerves."
+      ],
+      "sideEffects": [
+        "Sleepiness",
+        "Dizziness",
+        "Nasopharyngitis (inflammation of the throat and nasal passages)",
+        "Increased appetite",
+        "Blurred vision",
+        "Constipation",
+        "Muscle cramps",
+        "Edema (swelling)",
+        "Erectile dysfunction",
+        "Weight gain",
+        "Balance disorder (loss of balance)",
+        "Lethargy",
+        "Vertigo",
+        "Vomiting",
+        "Headache",
+        "Confusion",
+        "Disorientation",
+        "Abnormality of voluntary movements"
+      ],
+      "safetyAdvice": {
+        "alcohol": "UNSAFE - May cause excessive drowsiness with alcohol.",
+        "pregnancy": "CONSULT YOUR DOCTOR - May be unsafe during pregnancy; consult your doctor to weigh benefits and risks.",
+        "breastFeeding": "CONSULT YOUR DOCTOR - Probably unsafe during breastfeeding; consult your doctor.",
+        "driving": "UNSAFE - May decrease alertness; do not drive if you feel sleepy or dizzy.",
+        "kidney": "CAUTION - Use with caution in patients with kidney disease; dose adjustment may be needed.",
+        "liver": "SAFE IF PRESCRIBED - Probably safe in patients with liver disease; consult your doctor."
+      },
+      "composition": [
+        "Methylcobalamin",
+        "Pregabalin"
+      ]
+    },{
+      "name": "Clock-D3 60K Solution",
+      "type": "syr",
+      "introduction": "Clock-D3 60K Orange Oral Solution 5 ml is a dietary supplement designed to treat low blood calcium levels and Vitamin D deficiency. It supports bone health and aids in calcium absorption, promoting overall well-being.",
+      "administration": "Take this solution by mouth, preferably with food for better absorption. Follow the dosage prescribed by your doctor and do not exceed the recommended amount. Regular monitoring of Vitamin D levels is advised.",
+      "smallImages": [
+        "assets/images/product/prod300x300/nopic.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/nopic.png"
+      ],
+      "precautions": [
+        "Consult your doctor before use if you are pregnant, breastfeeding, or have any medical conditions.",
+        "Avoid excessive intake of calcium or Vitamin D from other sources.",
+        "Regularly check calcium levels and kidney function during treatment."
+      ],
+      "uses": [
+        "Treatment of Vitamin D deficiency",
+        "Support for bone health",
+        "Prevention of osteoporosis"
+      ],
+      "benefits": [
+        "Aids in calcium absorption and metabolism.",
+        "Supports the development and maintenance of healthy bones.",
+        "Helps prevent complications related to low Vitamin D levels."
+      ],
+      "sideEffects": [
+        "Nausea",
+        "Vomiting",
+        "Constipation",
+        "Increased thirst",
+        "Dizziness",
+        "Weakness"
+      ],
+      "safetyAdvice": {
+        "alcohol": "CAUTION - Limit alcohol intake as it may interfere with absorption.",
+        "pregnancy": "CONSULT YOUR DOCTOR - Discuss benefits and risks with your healthcare provider.",
+        "breastFeeding": "CONSULT YOUR DOCTOR - Consult your doctor before use while breastfeeding.",
+        "driving": "SAFE - Generally safe to drive, but caution is advised if experiencing dizziness.",
+        "kidney": "CAUTION - Consult your doctor if you have kidney issues; dosage adjustment may be needed.",
+        "liver": "SAFE IF PRESCRIBED - Generally safe in patients with liver issues; consult your doctor."
+      },
+      "composition": [
+        "Cholecalciferol (Vitamin D3)",
+        "Calcium"
+      ]
+    },
+    {
+      "name": "Clonerv Plus",
+      "type": "tab",
+      "introduction": "Clonerv Plus is a dietary supplement in the form of soft gelatin capsules designed to support overall health and well-being. It contains a blend of vitamins and minerals that work synergistically to enhance nerve health, improve energy metabolism, and provide antioxidant support.",
+      "administration": "Take Clonerv Plus as directed by your healthcare provider, preferably with meals to enhance absorption. Swallow the capsule whole with water; do not chew or crush it. Consistent daily intake is recommended for optimal benefits.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-13.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-13.png"
+      ],
+      "precautions": [
+        "Consult your doctor before use if you are pregnant, breastfeeding, or have any underlying medical conditions.",
+        "Disclose all medications and supplements you are currently taking to avoid potential interactions.",
+        "Do not exceed the recommended dose."
+      ],
+      "uses": [
+        "Supports nerve health",
+        "Boosts energy metabolism",
+        "Provides antioxidant support"
+      ],
+      "benefits": [
+        "Methylcobalamin and Alpha Lipoic Acid help improve nerve function and reduce neuropathic pain.",
+        "Folic Acid and Selenium Dioxide contribute to overall cellular health and antioxidant defense.",
+        "B vitamins (B1, B6, and others) enhance energy levels and metabolic processes."
+      ],
+      "sideEffects": [
+        "Generally well-tolerated; however, some individuals may experience gastrointestinal discomfort.",
+        "Allergic reactions are rare but may occur; discontinue use and consult a doctor if you notice any adverse effects."
+      ],
+      "safetyAdvice": {
+        "alcohol": "Consult your doctor, as alcohol may interfere with the effectiveness of supplements.",
+        "pregnancy": "CONSULT YOUR DOCTOR - Discuss use during pregnancy for potential risks and benefits.",
+        "breastFeeding": "CONSULT YOUR DOCTOR - Check with your healthcare provider before using while breastfeeding.",
+        "driving": "SAFE - Generally considered safe for driving, but monitor your body's response to the supplement.",
+        "kidney": "CAUTION - Consult a healthcare professional if you have kidney issues.",
+        "liver": "SAFE IF PRESCRIBED - Usually safe for individuals with liver disease; consult your doctor."
+      },
+      "composition": [
+        "Methylcobalamin",
+        "Alpha Lipoic Acid",
+        "Folic Acid",
+        "Selenium Dioxide",
+        "Calcium Pantothenate",
+        "Vitamin B1",
+        "Vitamin B6",
+        "Vitamin E",
+        "Vitamin A",
+        "Inositol",
+        "Chromium Polynicotinate"
+      ]
+    },
+    {
+      "name": "Doxyclock LB",
+      "type": "tab",
+      "introduction": "Doxyclock LB Capsule is a combination medicine used to effectively treat various types of bacterial infections. It inhibits the growth of the microorganisms responsible for the infection and also helps prevent diarrhea that may arise as a side effect.",
+      "administration": "Doxyclock LB Capsule should be taken as prescribed by your doctor. It can be consumed with or without food, but taking it at the same time each day ensures better efficacy. Do not exceed the recommended dose, and complete the full course of treatment even if symptoms improve. If you miss a dose, take it as soon as possible. Avoid sudden discontinuation to maintain the effectiveness of the treatment.",
+      "smallImages": [
+        "assets/images/product/prod300x300/product-14.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/product-14.png"
+      ],
+      "precautions": [
+        "Inform your doctor about any medications you are currently taking.",
+        "Consult your doctor if you are pregnant or breastfeeding.",
+        "Avoid alcohol, as it may cause excessive drowsiness."
+      ],
+      "uses": [
+        "Treatment of bacterial infections"
+      ],
+      "benefits": [
+        "Doxyclock LB Capsule is effective against a variety of bacterial infections, including those affecting the blood, brain, lungs, bones, joints, urinary tract, stomach, and intestines.",
+        "It helps treat and prevent diarrhea caused by antibiotic use or gut infections.",
+        "Continuous use as prescribed prevents bacterial resistance."
+      ],
+      "sideEffects": [
+        "Most side effects are mild and may not require medical attention.",
+        "Common side effects include nausea, vomiting, photosensitivity, rash, headache, fast heart rate, and hypotension (low blood pressure). Consult your doctor if side effects persist or worsen."
+      ],
+      "safetyAdvice": {
+        "alcohol": "UNSAFE - Consumption with Doxyclock LB Capsule is not recommended.",
+        "pregnancy": "CONSULT YOUR DOCTOR - Use during pregnancy poses risks; consult your doctor for potential benefits and risks.",
+        "breastFeeding": "CONSULT YOUR DOCTOR - Use during breastfeeding is probably unsafe; consult your doctor.",
+        "driving": "UNSAFE - May decrease alertness or cause visual disturbances; do not drive if you experience these symptoms.",
+        "kidney": "CONSULT YOUR DOCTOR - Limited information is available for use in patients with kidney disease.",
+        "liver": "CAUTION - Use with caution in patients with liver disease; dose adjustments may be needed."
+      },
+      "composition": [
+        "Doxycycline",
+        "Lactobacillus"
+      ]
+    },
+    {
+      "name": "Otto SB 1.5 EDTA Inj",
+      "type": "inj",
+      "introduction": "Otto SB 1.5 EDTA Injection is a combination medicine prescribed to treat various types of bacterial infections. It works against microorganisms to prevent their growth and the further spread of the infection.",
+      "administration": "This injection should only be administered under the supervision of a healthcare professional. Ensure to attend all scheduled appointments for administration. Complete the full course of treatment, even if you feel better, as sudden discontinuation may affect the medicine's effectiveness.",
+      "smallImages": [
+        "assets/images/product/prod300x300/nopic.png"
+      ],
+      "largeImages": [
+        "assets/images/product/prod1000x1000/nopic.png"
+      ],
+      "precautions": [
+        "Inform your doctor of any other medications you are taking.",
+        "Consult your doctor if you are pregnant or breastfeeding.",
+        "Avoid alcohol, as it may cause excessive drowsiness."
+      ],
+      "uses": [
+        "Treatment of bacterial infections"
+      ],
+      "benefits": [
+        "Otto SB 1.5 EDTA Injection combines Cefoperazone and Sulbactam to effectively kill bacteria that cause infections.",
+        "It is effective against various bacterial infections, including those affecting the ear, sinus, throat, lungs, urinary tract, skin, and soft tissues.",
+        "Continuing the treatment as prescribed ensures all bacteria are eradicated, preventing resistance."
+      ],
+      "sideEffects": [
+        "Most side effects are mild and may not require medical attention.",
+        "Common side effects include decreased white blood cell counts, diarrhea, nausea, vomiting, and increased liver enzyme levels. Consult your doctor if side effects persist or worsen."
+      ],
+      "safetyAdvice": {
+        "alcohol": "UNSAFE - Alcohol consumption may cause disulfiram-like reactions, including flushing, increased heart rate, nausea, and low blood pressure.",
+        "pregnancy": "SAFE IF PRESCRIBED - Generally considered safe during pregnancy, but consult your doctor.",
+        "breastFeeding": "SAFE IF PRESCRIBED - Safe during breastfeeding, with limited transfer to breastmilk.",
+        "driving": "CONSULT YOUR DOCTOR - Not known if it affects driving ability; avoid driving if you experience symptoms that affect concentration.",
+        "kidney": "CONSULT YOUR DOCTOR - Limited information on use in patients with kidney disease.",
+        "liver": "CONSULT YOUR DOCTOR - Limited information on use in patients with liver disease."
+      },
+      "composition": [
+        "Cefoperazone",
+        "Sulbactam"
+      ]
+    }
+    
+    
+  ]
+}

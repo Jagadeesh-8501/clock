@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1, h2 { color: #333; }
+    p { margin: 5px 0; }
+    ul { margin: 5px 0; padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <h1 id="productName">Product Name</h1>
+  <p id="productIntroduction"></p>
+
+  <h2>Administration</h2>
+  <p id="productAdministration"></p>
+
+  <h2>Precautions</h2>
+  <ul id="productPrecautions"></ul>
+
+  <h2>Uses</h2>
+  <ul id="productUses"></ul>
+
+  <h2>Benefits</h2>
+  <ul id="productBenefits"></ul>
+
+  <h2>Side Effects</h2>
+  <ul id="productSideEffects"></ul>
+
+  <h2>Safety Advice</h2>
+  <ul id="productSafetyAdvice"></ul>
+
+  <h2>Composition</h2>
+  <ul id="productComposition"></ul>
+
+  <h2>Drug Interactions</h2>
+  <p><strong>Medications:</strong></p>
+  <ul id="drugMedications"></ul>
+  <p><strong>Foods:</strong></p>
+  <ul id="drugFoods"></ul>
+  <p><strong>Conditions:</strong></p>
+  <ul id="drugConditions"></ul>
+  
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const productIndex = urlParams.get('index');
+
+    fetch('path/to/products.json')
+      .then(response => response.json())
+        .then(data => {
+          console.log(data); // Check entire JSON
+          console.log(data.products); // Check products array
+          loadProductDetails(data.products);
+        });
+    async function loadProductDetails() {
+      const response = await fetch('products.json');
+      const data = await response.json();
+      const product = data.products[productIndex];
+
+      document.getElementById('productName').textContent = product.name;
+      document.getElementById('productIntroduction').textContent = product.introduction;
+      document.getElementById('productAdministration').textContent = product.administration;
+
+      product.precautions.forEach(precaution => {
+        const li = document.createElement('li');
+        li.textContent = precaution;
+        document.getElementById('productPrecautions').appendChild(li);
+      });
+
+      product.uses.forEach(use => {
+        const li = document.createElement('li');
+        li.textContent = use;
+        document.getElementById('productUses').appendChild(li);
+      });
+
+      product.benefits.forEach(benefit => {
+        const li = document.createElement('li');
+        li.textContent = benefit;
+        document.getElementById('productBenefits').appendChild(li);
+      });
+
+      product.sideEffects.forEach(effect => {
+        const li = document.createElement('li');
+        li.textContent = effect;
+        document.getElementById('productSideEffects').appendChild(li);
+      });
+
+      Object.entries(product.safetyAdvice).forEach(([key, advice]) => {
+        const li = document.createElement('li');
+        li.textContent = `${key.charAt(0).toUpperCase() + key.slice(1)}: ${advice}`;
+        document.getElementById('productSafetyAdvice').appendChild(li);
+      });
+
+      product.composition.forEach(compound => {
+        const li = document.createElement('li');
+        li.textContent = compound;
+        document.getElementById('productComposition').appendChild(li);
+      });
+      if (product.drugInteractions) {
+  if (product.drugInteractions.medications) {
+    product.drugInteractions.medications.forEach(medication => {
+      const li = document.createElement('li');
+      li.textContent = medication;
+      document.getElementById('drugMedications').appendChild(li);
+    });
+  }
+
+  if (product.drugInteractions.foods) {
+    product.drugInteractions.foods.forEach(food => {
+      const li = document.createElement('li');
+      li.textContent = food;
+      document.getElementById('drugFoods').appendChild(li);
+    });
+  }
+
+  if (product.drugInteractions.conditions) {
+    product.drugInteractions.conditions.forEach(condition => {
+      const li = document.createElement('li');
+      li.textContent = condition;
+      document.getElementById('drugConditions').appendChild(li);
+    });
+  }
+}
+
+
+    }
+
+    loadProductDetails();
+  </script>
+</body>
+</html>

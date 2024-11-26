@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .product-list {
+            margin: 20px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .product-item {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .cart-img {
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .cart-img img {
+            width: 100%;
+            height: auto;
+        }
+
+        .cart-title {
+            flex-grow: 1;
+        }
+
+        .cart-delete {
+            color: red;
+            cursor: pointer;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Products</h1>
+    <ul class="product-list" id="productList"></ul>
+
+    <script>
+        async function loadProducts() {
+            const response = await fetch('products.json');
+            const data = await response.json();
+
+            const productList = document.getElementById('productList');
+            data.products.forEach((product, index) => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('product-item');
+
+                // Template for product item
+                listItem.innerHTML = `
+          <div class="cart-img">
+            <a href="product-details.html?index=${index}"><img src="${product.image || 'assets/images/cart/cart-1.jpg'}" alt="${product.name}"></a>
+          </div>
+          <div class="cart-title">
+            <h4><a href="product-details.html?index=${index}">${product.name}</a></h4>
+            <span>1 × $${product.price || '0.00'}</span>
+          </div>
+          <div class="cart-delete">
+            <a href="#">×</a>
+          </div>
+        `;
+
+                productList.appendChild(listItem);
+            });
+        }
+
+        loadProducts();
+    </script>
+</body>
+
+</html>
